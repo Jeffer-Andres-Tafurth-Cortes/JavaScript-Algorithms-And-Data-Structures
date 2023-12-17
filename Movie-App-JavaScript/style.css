@@ -1,0 +1,60 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #456;
+    border: 5px double #000;
+}
+  
+h1 {
+    color: #000;
+}
+  
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+  
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1c19b6;
+    border-radius: 10%;
+}
+  
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+  
+.movie {
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+  
+.movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+  
+.movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+  
+.movie p {
+    margin: 5px 0;
+}
